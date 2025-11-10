@@ -393,4 +393,46 @@ img.me-2 {
 /* 🌟 SOFT SKILLS SECTION END */
 /* ----------------------------------- */
 
+.resume-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resume-btn {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+.resume-btn i {
+  margin-right: 10px;
+}
+
+.resume-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #00408f);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+}
+
+.resume-btn.outline {
+  background: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  box-shadow: none;
+}
+
+.resume-btn.outline:hover {
+  background: #007bff;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+}
+
 
